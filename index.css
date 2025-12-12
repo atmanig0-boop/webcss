@@ -2,11 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
+  }
 body {
   font-family: Arial, sans-serif;
-  background-image: url("./imageweb/982782-large-nature-computer-backgrounds-1920x1080-computer-719698730.jpg");
+  background-image:url("./imageweb/982782-large-nature-computer-backgrounds-1920x1080-computer-719698730.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,6 +110,7 @@ body {
 
 .cn {
   display: inline-block;
+  padding: top 12px;
   margin-top: 20px;
   width: 160px;
   height: 45px;
@@ -129,10 +129,12 @@ body {
 }
 
 .form {
-  width: 260px;
+  width: 500px;
+  font-weight :25px;
   background: rgba(0,0,0,0.7);
   padding: 25px;
   border-radius: 10px;
+  margin-left: 1200px;
   margin-top: 40px;
 }
 
