@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZZ Hiking group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ZZ Hiking Group</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="text-wrapper">
+                <h2>Welcome to ZZ Hiking Group</h2>
+                <p>Your adventure starts here!</p>
+                <button>Join Now</button>
+            </div>
+        </section>
+
+        <div class="sections-wrapper">
+            <section class="about" id="about">
+                <h2>About Us</h2>
+                <p>ZZ Hiking Group is dedicated to exploring the great outdoors and connecting with nature. We organize
+                    regular hikes and outdoor activities for enthusiasts of all levels.</p>
+                <p>ZZ Hiking Group welcomes hikers of all skill levels and backgrounds. We organize weekly guided hikes,
+                    monthly overnight trips, and occasional skill-building workshops covering navigation, Leave No Trace
+                    principles, and basic first aid. Our experienced volunteer leaders plan routes that balance
+                    challenge and safety, and we encourage participants to prepare with appropriate gear, hydration, and
+                    footwear. Beyond the trails, we foster a friendly, inclusive community through social events and
+                    environmental stewardship projects, ensuring every member feels supported and connected. Join us to
+                    explore new trails, improve your outdoor skills, and make lasting friendships in the great outdoors.
+                </p>
+            </section>
+
+            <section class="services" id="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>
+                        Guided Hikes
+                    </li>
+                    <li>
+                        Outdoor Skills Workshops
+                    </li>
+                    <li>
+                        Equipment Rentals
+                    </li>
+                    <li>
+                        Community Events
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pricing" id="pricing">
+                <h2>Membership Pricing</h2>
+                <table >
+                    <caption>Membership pricing and core perks</caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2" scope="col">Membership Type</th>
+                            <th colspan="2" scope="col">Price</th>
+                            <th rowspan="2" scope="col">Perks</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Annual</th>
+                            <th scope="col">Monthly</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Basic</td>
+                            <td>$30</td>
+                            <td>$3/mo</td>
+                            <td>Access to group hikes</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Premium</td>
+                            <td>$50</td>
+                            <td>$5/mo</td>
+                            <td>Workshops, equipment rentals</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" scope="row">Family</td>
+                            <td>$80</td>
+                            <td>$8/mo</td>
+                            <td>Up to 4 members</td>
+                        </tr>
+                        <tr>
+                            <!-- second family row spans the two price columns to show an alternate annual package -->
+                            <td colspan="2">$100 (extended family package)</td>
+                            <td>Up to 6 members + gear discount</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Student / Volunteer</td>
+                            <td>$15</td>
+                            <td>$1.5/mo</td>
+                            <td>Discounted rate; proof required</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Note: Monthly prices are approximate and billed annually where applicable.
+                                Contact us for group or corporate rates.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ZZ Hiking Group. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
